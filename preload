@@ -21,3 +21,7 @@
 
 # Puppet
 /home/amp/src/stats/puppet/manifests/init.pp
+
+# OpenDNS cache
+/home/amp/src/opendnscache.git/opendnscache/lib-opendnscache/dnscache.c
+/home/amp/src/opendnscache.git/opendnscache/exe-opendnscache/main.c
