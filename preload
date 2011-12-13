@@ -10,17 +10,17 @@
 #/home/amp/src/brain/distribute/distribute
 
 ##### Stats stuff
-/home/amp/src/stats/hadoop-services/run_transforms/run_transforms
+#/home/amp/src/stats/hadoop-services/run_transforms/run_transforms
 #/home/amp/src/stats/hadoop-services/monitor_hdfs/monitor_hdfs
 
 #/home/amp/src/stats/java/src/com/opendns/stats/transforms/TopTalkersHFiles.java
-/home/amp/src/stats/java/src/com/opendns/stats/lib/mapreduce/OpenDNSJobUtil.java
-/home/amp/src/stats/java/src/com/opendns/stats/lib/util/OpenDNSUtil.java
+#/home/amp/src/stats/java/src/com/opendns/stats/lib/mapreduce/OpenDNSJobUtil.java
+#/home/amp/src/stats/java/src/com/opendns/stats/lib/util/OpenDNSUtil.java
 
 #/home/amp/src/stats/java/src/com/opendns/stats/appserver/Activations.java
 
 # Puppet
-/home/amp/src/stats/puppet/manifests/init.pp
+#/home/amp/src/stats/puppet/manifests/init.pp
 
 # OpenDNS cache
 /home/amp/src/opendnscache.git/opendnscache/lib-opendnscache/dnscache.c

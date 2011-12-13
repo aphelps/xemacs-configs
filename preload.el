@@ -1,7 +1,3 @@
 (find-file "/home/amp/.xemacs/preload")
-(find-file "/home/amp/src/stats/hadoop-services/run_transforms/run_transforms")
-(find-file "/home/amp/src/stats/java/src/com/opendns/stats/lib/mapreduce/OpenDNSJobUtil.java")
-(find-file "/home/amp/src/stats/java/src/com/opendns/stats/lib/util/OpenDNSUtil.java")
-(find-file "/home/amp/src/stats/puppet/manifests/init.pp")
 (find-file "/home/amp/src/opendnscache.git/opendnscache/lib-opendnscache/dnscache.c")
 (find-file "/home/amp/src/opendnscache.git/opendnscache/exe-opendnscache/main.c")

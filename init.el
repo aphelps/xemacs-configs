@@ -95,4 +95,4 @@
 (load "~/.xemacs/preload")
 
 ;; Start with a second frame
-(make-frame)
+;;(make-frame)
