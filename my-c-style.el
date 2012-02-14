@@ -75,8 +75,11 @@
 (add-hook 'c-mode-hook 'my-c-mode-hook)
 (add-hook 'c++-mode-hook 'my-c-mode-hook)
 (add-hook 'cperl-mode-hook 'my-cperl-mode-hook)
+
 (global-set-key [f2]  'undo)
 (global-set-key "\M-g" 'goto-line)
 (global-set-key "\C-]" 'find-tag)
 (global-set-key "\C-t" `pop-tag-mark)
+
 (setq-default make-backup-files nil)
+(setq-default indent-tabs-mode nil)
