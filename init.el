@@ -8,7 +8,7 @@
 
 ;; Enable cscope
 ;; Uncomment this next line for MacOS
-;;(load-file "/opt/local/share/emacs/site-lisp/xcscope.el")
+(load-file "/opt/local/share/emacs/site-lisp/xcscope.el")
 (require 'xcscope)
 
 (load "~/.xemacs/my-c-style")
