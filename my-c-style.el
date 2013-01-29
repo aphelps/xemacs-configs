@@ -59,7 +59,7 @@
        (setq tab-width 8
         ;; this will make sure spaces are used instead of tabs
                 indent-tabs-mode nil)
-        (setq c-basic-offset 2)
+       (setq c-basic-offset 2)
 )
 
 ;; For perl
@@ -67,13 +67,16 @@
        (setq tab-width 8
         ;; this will make sure spaces are used instead of tabs
                 indent-tabs-mode nil)
-        (setq c-basic-offset 4)
+       (setq c-basic-offset 4)
+       (setq cperl-indent-level 4)
 )
-
 
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 (add-hook 'c-mode-hook 'my-c-mode-hook)
 (add-hook 'c++-mode-hook 'my-c-mode-hook)
+
+;; cperl-mode is preferred to perl-mode
+(defalias 'perl-mode 'cperl-mode)
 (add-hook 'cperl-mode-hook 'my-cperl-mode-hook)
 
 (global-set-key [f2]  'undo)
