@@ -1,0 +1,27 @@
+##### Emacs stuff
+/home/amp/.xemacs/preload
+#/home/amp/.xemacs/init.el
+#/home/amp/.xemacs/my-c-style.el
+
+##### Brain stuff
+#/home/amp/src/brain/dev-testing/fetch_brain
+#/home/amp/src/brain/dev-testing/run_distribute_local
+#/home/amp/src/brain/dev-testing/run_opendnscache_local
+#/home/amp/src/brain/distribute/distribute
+
+##### Stats stuff
+#/home/amp/src/stats/hadoop-services/run_transforms/run_transforms
+#/home/amp/src/stats/hadoop-services/monitor_hdfs/monitor_hdfs
+
+#/home/amp/src/stats/java/src/com/opendns/stats/transforms/TopTalkersHFiles.java
+#/home/amp/src/stats/java/src/com/opendns/stats/lib/mapreduce/OpenDNSJobUtil.java
+#/home/amp/src/stats/java/src/com/opendns/stats/lib/util/OpenDNSUtil.java
+
+#/home/amp/src/stats/java/src/com/opendns/stats/appserver/Activations.java
+
+# Puppet
+#/home/amp/src/stats/puppet/manifests/init.pp
+
+# OpenDNS cache
+#/home/amp/src/opendnscache.git/opendnscache/lib-opendnscache/dnscache.c
+#/home/amp/src/opendnscache.git/opendnscache/exe-opendnscache/main.c
