@@ -70,6 +70,8 @@
         (setq c-basic-offset 4)
 )
 
+(add-to-list 'auto-mode-alist '("\\.ino\\'" . c-mode))
+(add-to-list 'auto-mode-alist '("\\.pde\\'" . c-mode))
 
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 (add-hook 'c-mode-hook 'my-c-mode-hook)
