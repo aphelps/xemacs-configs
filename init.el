@@ -17,6 +17,7 @@
 
 ;; Use cscope on java files
 (add-hook 'java-mode-hook (function cscope:hook))
+(add-hook 'scala-mode-hook (function cscope:hook))
 
 (add-to-list 'auto-mode-alist '("\\.\\([pP][Llm]\\|al\\|t\\)\\'" . cperl-mode))
 (add-to-list 'interpreter-mode-alist '("perl" . cperl-mode))
