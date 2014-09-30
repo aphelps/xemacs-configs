@@ -13,7 +13,15 @@
 )
 (require 'xcscope)
 
+(load "~/.xemacs/xpycscope")
 (load "~/.xemacs/my-c-style")
+
+;; Set default window size
+(setq default-frame-alist
+      '(
+        (width . 81) ; character
+        (height . 80) ; lines
+        ))
 
 ;; Use cscope on java files
 (add-hook 'java-mode-hook (function cscope:hook))

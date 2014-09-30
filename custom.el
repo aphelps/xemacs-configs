@@ -9,3 +9,5 @@
 
 (custom-set-faces
  '(default ((t (:size "10pt" :family "Fixed"))) t))
+
+(setq minibuffer-max-depth nil)
